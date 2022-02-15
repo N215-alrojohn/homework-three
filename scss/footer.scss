@@ -1,0 +1,52 @@
+.footer {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: $banner-footer-width;
+    height: 100px;
+    background-color: $site-blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .logo {
+        width: 92px;
+        height: 42px;
+        background-image: url(../images/logo/logo-white.svg);
+    } //logo closing
+
+    .copyright {
+        height: 14px;
+        width: 214px;
+        font-size: 12px;
+        font-family: gillsans;
+        color: $site-white;
+    }
+
+    .appicons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .facebook {
+            margin-left: 21px;
+            font-size: 27px;
+            color: $site-white;
+            cursor: pointer;
+        }
+
+        .instagram {
+            margin-left: 21px;
+            font-size: 27px;
+            color: $site-white;
+            cursor: pointer;
+        }
+
+        .twitter {
+            margin-left: 21px;
+            font-size: 27px;
+            color: $site-white;
+            cursor: pointer;
+        }
+    }
+}

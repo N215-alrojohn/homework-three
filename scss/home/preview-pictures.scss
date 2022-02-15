@@ -1,0 +1,52 @@
+.frontpageimages {
+    width: 818px;
+    height: 304px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -43px;
+
+    .preview {
+        height: 304px;
+        width: 236px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: (rgba($site-black,0.5));
+        background-blend-mode: multiply;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: $site-white;
+
+        h1{
+            font-family: ProximaNovaThin;
+            font-size: 60px;
+        }
+
+        h3 {
+            font-family: ProximaNovaThin;
+            font-size: 30px;
+        }
+
+        .previewbutton {
+            height: 40px;
+            width: 133px;
+            border-radius: 20px;
+            background-color: $site-blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 59px;
+            cursor: pointer;
+
+            p {
+                margin: 0 auto;
+                color: $site-white;
+                font-family: gillsans;
+            }
+        }
+    }
+}

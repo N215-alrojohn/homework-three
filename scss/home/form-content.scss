@@ -1,0 +1,110 @@
+.form-content {
+    max-width: $home-form-width;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    h1 {
+        font-family: ProximaNovaThin;
+        font-size: 60px;
+    }
+
+    .topboxescontainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .leftinput {
+            width: 344px;
+            height: 58px;
+            padding-left: 10px;
+            border-color: $site-blue;
+            border-style: solid;
+            font-family: GillSans;
+            font-size: 18px;
+        }//leftinput closing
+
+        .rightinput {
+            width: 453px;
+            height: 58px;
+            padding-left: 10px;
+            border-color: $site-blue;
+            border-style: solid;
+            font-family: GillSans;
+            font-size: 18px;
+        }
+    }//topboxescontainer closing
+
+    .checkboxes {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        p {
+            margin-top: 18px;
+            font-family: GillSans;
+            font-size: 18px;
+        }
+
+        .checkinput {
+            width: 698px;
+            height: 58px;
+            padding-left: 10px;
+            border-color: $site-blue;
+            border-style: solid;
+            font-family: GillSans;
+            font-size: 18px;
+        }
+
+    }
+
+    .dropdowncontainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        font-family: GillSans;
+        font-size: 18px;
+
+        select {
+            height: 58px;
+            width: 103px;
+            font-family: GillSans;
+            font-size: 18px;
+            border-color: $site-blue;
+            border-style: solid;
+        }
+    }
+
+    .messagebox {
+        margin-top: 20px;
+
+        input {
+            border-color: $site-blue;
+            border-style: solid;
+            height: 192px;
+            width: $home-form-width;
+            font-family: GillSans;
+            font-size: 18px;
+        }
+    }
+
+    .submitbutton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 37px;
+        background-color: $site-blue;
+        width: 813px;
+        height: 60px;
+        border-radius: 30px;
+        font-family: GillSans;
+        font-size: 15px;
+        color: $site-white;
+        cursor: pointer;
+    }
+
+}//form-content closing
